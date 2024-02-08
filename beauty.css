@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&display=swap');
+.icon {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(98, 89, 90);
+    border-bottom: 2px solid black;
+    position:relative;
+}
+.icon1 h1{
+    color:azure;
+    position:absolute;
+    width:fit-content;
+    /* border:2px solid black; */
+    top:17%;
+    left:2%;
+}
+
+.Ella h2{
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 45px;
+    padding-right: 10px;
+    margin:50%;
+    top:40%;
+    color: black;
+    width: fit-content;
+    border:2px black solid;
+}
+.link ul,li,a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color:azure;
+    display: inline;
+    padding-inline: 10px;
+    position:relative;
+}
+
+.link a:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.link {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    justify-content: end;
+}
+
+.link ul,li,a {
+    text-decoration: none;
+
+}
+.header1 {
+    position: relative;
+}
+
+.header1 img {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    border-radius: 1%;
+
+}
+
+.header1p h1 {
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(88, 53, 53);
+    top: 10%;
+    left:34%;
+}
+
+.header1p2 p {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    left: 15%;
+    font-weight: 300px;
+}
+
+.header2 {
+    height:100vh;
+    width:100%;
+    background-color:beige;
+    position: relative;
+}
+.h2aboutus p{
+    position:absolute;;
+    color:grey;
+    top:16%;
+    left:47%;
+    /* border:2px solid black; */
+    display:inline-block;
+    width:fit-content;
+}
+.h2content h2{
+    position:absolute;
+    top:28%;
+    left:37%;
+    font-size:40px;
+    /* border:2px solid black; */
+    width:fit-content;
+    /* justify-content: flex-start; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-weight: 100; */
+}
+.h2content2 h2{
+    position:absolute;
+    top:35%;
+    left:43%;
+    font-size:40px;
+    /* border:2px solid black; */
+    width:fit-content;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Poppins', sans-serif;font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-weight: 100; */
+}
+.h2content3 h2{
+    position:absolute;
+    top:43%;
+    left:44%;
+    font-size:40px;
+    /* border:2px solid black; */
+    width:fit-content;
+    font-weight: 100;
+    color:red;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.h2content4 p{
+    position:absolute;
+    top:58%;
+    left:35%;
+    /* border:2px solid black; */
+    width:fit-content;
+    height:20px;
+}
+.h2content5 p{
+    position:absolute;
+    top:63%;
+    left:38%;
+    /* border:2px solid black; */
+    width:fit-content;
+}
+.h2content6 p{
+    position:absolute;
+    top:75%;
+    left:47%;
+    border:2px solid red;
+    padding:10px;
+    font-size:small;
+}
+.h2img1 img{
+    position:absolute;
+    top:10%;
+    left:5%;
+    height:30%;
+    width:15%;
+}
+.h2img2 img{
+    position:absolute;
+    top:52%;
+    left:8%;
+    height:38%;
+    width:15%;
+}
+.h2img3 img{
+    position:absolute;
+    top:6%;
+    right:10%;
+    height:22%;
+    width:15%;
+}
+.h2img4 img{
+    position:absolute;
+    top:34%;
+    right:6%;
+    height:30%;
+    width:15%;
+}
+.h2img5 img{
+    position:absolute;
+    top:69%;
+    right:12%;
+    height:30%;
+    width:15%;
+}
+
+.about {
+    width: 100%;
+    height: 25%;
+    background-color: beige;
+    position: relative;
+    color: rgb(121, 101, 101);
+}
+
+hr {
+    weight: 2px;
+    color: rgb(56, 32, 32);
+}
+
+.Header3 {
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.whychoose h1 {
+    width: 30%;
+    height: 10%;
+    /* border: 2px solid; */
+    position: absolute;
+    top: 13%;
+    left: 55%;
+    justify-content: flex-start;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.whychoose2 h1 {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 20%;
+    height: 5%;
+    top: 22%;
+    left: 55%;
+    padding: 0%;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+}
+
+.whychoose3 p {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 40%;
+    height: 8%;
+    top: 32%;
+    left: 55%;
+
+}
+
+.whychoose4 h2 {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 20%;
+    height: 5%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    top: 45%;
+    left: 55%;
+}
+
+.whychoose5 p {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 35%;
+    height: 5%;
+    top: 50%;
+    left: 55%;
+}
+
+.whychoose6 h2 {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 35%;
+    height: 5%;
+    top: 56%;
+    left: 55%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whychoose7 p {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 35%;
+    height: 5%;
+    top: 60%;
+    left: 55%;
+}
+
+.whychoose8 h2 {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 35%;
+    height: 5%;
+    top: 69%;
+    left: 55%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whychoose9 p {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 35%;
+    height: 5%;
+    top: 73%;
+    left: 55%;
+}
+
+.about h2 {
+    position: absolute;
+    color: rgb(56, 32, 32);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    top: 30px;
+    left: 700px;
+}
+
+.img1 img {
+    position: absolute;
+    height: 70%;
+    width: 28%;
+    border-radius: 0px;
+    top: 13%;
+    right: 63%;
+    z-index: 2;
+}
+
+.background {
+    background-color: white;
+    position: absolute;
+    height: 70%;
+    width: 28%;
+    border-bottom: solid 2px;
+    border-right: solid 2px;
+    z-index: 1;
+    top: 15%;
+    right: 62%;
+    border-radius: 2px;
+}
+
+.img2 img {
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    border-radius: 0px;
+    top: 45%;
+    right: 75%;
+}
+
+.services {
+    background-color: rgb(240, 240, 246);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-radius: 20px solid;
+    justify-content: space-around;
+}
+
+.services1 h6 {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    color:grey;
+    top: 6%;
+    left: 47%;
+    /* border: 2px solid; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+}
+
+.services2 h2 {
+    width: fit-content;
+    position: absolute;
+    top: 100px;
+    left: 32%;
+    /* border: 2px solid; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    font-style: italic;
+    font-weight:200;
+}
+
+.services3 {
+    width: fit-content;
+    position: absolute;
+    top: 16%;
+    left: 56%;
+    /* border: 2px solid; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-style:italic;
+    color: red;
+    font-weight:500;
+}
+
+.services4 img {
+    position: absolute;
+    /* border: 2px solid; */
+    height: 40%;
+    width: 20%;
+    top: 30%;
+    left: 8%;
+}
+
+.nail {
+    position: absolute;
+    /* border: 2px solid; */
+    top: 72%;
+    left: 15%;
+}
+
+.nailp {
+    position: absolute;
+    /* border: 2px solid; */
+    width: 300px;
+    top: 78%;
+    left: 9%;
+}
+
+.nailread p {
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    left: 13%;
+    top: 88%;
+    font-size:small;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.nailread p:hover{
+    color:black;
+}
+.haircut {
+    position: absolute;
+    /* border: 2px solid; */
+    top: 72%;
+    left: 38%;
+}
+
+.haircutp {
+    position: absolute;
+    /* border: 2px solid; */
+    top: 78%;
+    left: 32%;
+    width: 300px;
+}
+
+.haircutread p {
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    left: 37%;
+    top: 88%;
+    font-size:small;
+    cursor:pointer;
+}
+.haircutread p:hover{
+    color:black;
+}
+.haircolor {
+    position: absolute;
+    /* border: 2px solid; */
+    top: 72%;
+    left: 61%;
+}
+
+.haircolorp {
+    position: absolute;
+    width: 300px;
+    /* border: 2px solid; */
+    top: 78%;
+    left: 54%;
+}
+
+.haircolorread p {
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    left: 60%;
+    top: 88%;
+    font-size:small;
+    cursor:pointer;
+}
+.haircolorread p:hover{
+    color:black;
+}
+
+.hairwaxing {
+    position: absolute;
+    /* border: 2px solid; */
+    top: 72%;
+    left: 82%;
+}
+
+.hairwaxingp {
+    position: absolute;
+    width: 300px;
+    /* border: 2px solid; */
+    top: 78%;
+    left: 76%;
+}
+
+.hairwaxingread p {
+    position: absolute;
+    border-bottom: 2px solid red;
+    width: fit-content;
+    left: 82%;
+    top: 88%;
+    font-size:small;
+    cursor:pointer;
+}
+.hairwaxingread p:hover{
+    color:black;
+}
+
+.services5 img {
+    position: absolute;
+    /* border: 2px solid; */
+    height:40%;
+    width: 20%;
+    top: 30%;
+    left: 30%;
+}
+
+.services6 img {
+    position: absolute;
+    /* border: 2px solid; */
+    height: 40%;
+    width: 20%;
+    top: 30%;
+    left: 53%;
+}
+
+.services7 img {
+    position: absolute;
+    /* border: 2px solid; */
+    height: 40%;
+    width: 20%;
+    top: 30%;
+    left: 75%;
+}
+.contact{
+    position:relative;
+    height:100vh;
+    width:100%;
+}
+.conimg img{
+    position:absolute;
+    height:75%;
+    width:42%;
+    top:13%;
+    left:5%;
+}
+.contact1 p{
+    position:absolute;
+    top:22%;
+    left:53%;
+    /* border:2px solid black; */
+}
+.contact2 h2{
+    position:absolute;
+    top:28%;
+    left:53%;
+    /* border:2px solid black; */
+    font-size:30;
+}
+.contact3 h1{
+    position:absolute;
+    top:29%;
+    left:59%;
+    /* border:2px solid black; */
+    font-size:40;
+    color:red;
+}
+.contact4 p{
+    position:absolute;
+    top:38%;
+    left:53%;
+    /* border:2px solid black; */
+    width:600px;
+}
+.contact5 img{
+    position:absolute;
+    height:4%;
+    width:2%;
+    top:50%;
+    left:53%;
+}
+.contactadd h3{
+    position:absolute;
+    top:51%;
+    left:56%;
+}
+.contactadd2 p{
+    position:absolute;
+    width:10%;
+    padding:10px;
+    top:54%;
+    left:54%;
+}
+.contactphn img{
+    position:absolute;
+    height:3%;
+    width:2%;
+    top:50%;
+    left:73%;
+}
+.contactphn1 h3{
+    position:absolute;
+    top:50%;
+    left:76%;
+}
+.contactphn2 p{
+    position:absolute;
+    top:54%;
+    left:76%;
+    width:10%;
+}
+.Email img{
+    position:absolute;
+    height:3%;
+    width:2%;
+    top:70%;
+    left:53%;
+}
+.Email-text h3{
+    position:absolute;
+    top:70%;
+    left:56%;
+}
+.Email-text1 p{
+    position:absolute;
+    width:10px;
+    top:73%;
+    left:56%;
+}
+.hours img{
+    position:absolute;
+    height:3%;
+    width:2%;
+    top:70%;
+    left:73%;
+}
+.hours1 h3{
+    position:absolute;
+    top:70%;
+    left:76%;
+}
+.hours2 p{
+    position:absolute;
+    width:13%;
+    top:73%;
+    left:76%;
+}
